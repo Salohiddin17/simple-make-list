@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+
+        <form id="form">
+            <label for="flag">
+                Bayroq: <input type="url" id="flag" required>
+            </label>
+            <label for="country">
+                Davlat: <input type="text" id="country" required>
+            </label>
+            <label for="description">
+                Tarif: <input type="text" id="description" required>
+            </label>
+            <button type="submit" id="btn" onclick="addCountry()">go</button>
+            <button onClick="clear()" type="button">clear</button>
+        </form>
+
+        <h1 class="heading-one">COUNTRIES</h1>
+        <ul class="list-item">
+            
+        </ul>
+    </div>
+
+    <script src="js/main.js">
+        
+    </script>
+</body>
+</html>
+
+
+
